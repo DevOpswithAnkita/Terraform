@@ -1,7 +1,7 @@
 # Create SSH key pair - this key to access the server using ssh-keygen command
 resource "aws_key_pair" "my-ec2-key" {
   key_name   = "terra-aws-ec2"                                                                           # What AWS will call this key
-  public_key = file("/Users/patdel/Downloads/Ankita-personal/Terraform/simple-project/terra-aws-ec2-key.pub") # Path to your public key file
+  public_key = file("./terra-aws-ec2-key.pub") # Path to your public key file
 }
 
 # Use default VPC 
