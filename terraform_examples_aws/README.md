@@ -48,7 +48,7 @@ terraform apply -auto-approve
 terraform destroy -auto-approve
 ```
 
-***Outputs****
+****Outputs****
 - After terraform apply, you will get:
 - instance_ids → List of EC2 instance IDs
 - public_ips → List of public IPs of EC2 instances
@@ -58,3 +58,9 @@ terraform destroy -auto-approve
 - EC2 AMI IDs in terraform.tfvars must be updated according to your AWS region.
 - S3 bucket names must be globally unique. If the bucket already exists, Terraform will fail.
 - Sensitive information like passwords or keys should not be hard-coded; use environment variables or secret managers.
+
+## ****Architecture Diagram****
+
+![AWS Create Resources Architecture](https://github.com/DevOpswithAnkita/Terraform/blob/main/terraform_examples_aws/AWS-Create-Resources.png?raw=true)
+
+---
