@@ -1,17 +1,6 @@
-cat <<EOT > README.md
 # Static Website Hosting on AWS S3 using Terraform
 
 This project demonstrates how to host a static website on AWS S3 using Terraform. It creates an S3 bucket, configures it for website hosting, sets public access, and uploads a test HTML file.
-
----
-
-## **Project Structure**
-
-.
-├── main.tf                # Terraform configuration for S3 bucket and resources
-├── outputs.tf             # Outputs (e.g., website URL)
-├── test.html  # Sample HTML file for testing 
-└── README.md
 
 ---
 
