@@ -20,33 +20,36 @@ This project demonstrates how to host a static website on AWS S3 using Terraform
 ## **Setup Instructions**
 
 1. **Clone the repository** (if using GitHub):
-\`\`\`
-git clone (https://github.com/DevOpswithAnkita/Terraform.git)
+```bash
+git clone https://github.com/DevOpswithAnkita/Terraform.git
+
 cd terraform_examples_aws/Host-Static-Website-Using-Terraform
-\`\`\`
+```
 
 2. **Initialize Terraform**:
-\`\`\`
+```bash
 terraform init
-\`\`\`
+```
 
 3. **Plan the deployment**:
-\`\`\`
+```bash
 terraform plan
-\`\`\`
+```
 
 4. **Apply the deployment**:
-\`\`\`
+```bash
 terraform apply
-\`\`\`
+```
 
 5. **View the website URL**:
 - If you have an outputs.tf file configured, run:
-\`\`\`
+```bash
 terraform output
-\`\`\`
+```bash
 - Open the URL in your browser.
+  ```bash
      https://devopswithankita.s3-website-us-east-1.amazonaws.com/
+   ```bash
 ---
 
 
