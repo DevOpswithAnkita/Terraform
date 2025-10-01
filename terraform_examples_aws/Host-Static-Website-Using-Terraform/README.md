@@ -49,7 +49,7 @@ terraform output
 
 ***Open the URL in your browser***
   ```bash
-     https://devopswithankita.s3-website-us-east-1.amazonaws.com/
+     http://devopswithankita.s3-website-us-east-1.amazonaws.com/
    ```
 ---
 
