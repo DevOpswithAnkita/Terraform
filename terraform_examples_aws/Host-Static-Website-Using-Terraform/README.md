@@ -45,11 +45,12 @@ terraform apply
 - If you have an outputs.tf file configured, run:
 ```bash
 terraform output
-```bash
-- Open the URL in your browser.
+```
+
+***Open the URL in your browser***
   ```bash
      https://devopswithankita.s3-website-us-east-1.amazonaws.com/
-   ```bash
+   ```
 ---
 
 
